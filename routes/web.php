@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// use Fhsinchy\Inspire\Inspire;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-// Route::get('inspire', function() {
-//     $inspire = new Inspire();
-
-//     dd($inspire->justDoIt());
-// });
