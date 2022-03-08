@@ -1,0 +1,17 @@
+{
+    "name": "fhsinchy/inspire",
+    "autoload": {
+        "psr-4": {
+            "Fhsinchy\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farhan Hasin Chowdhury",
+            "email": "shovik.is.here@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
